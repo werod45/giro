@@ -18,6 +18,7 @@ p {
   position: sticky;
   z-index: 0;
   top: 0;
+  z-index: 9999;
 }
 .phone {
   margin-left: 13px;
@@ -62,7 +63,69 @@ p {
   margin-right: 10px;
 }
 #bg {
-  height: 831px;
+  height: 833px;
   width: 1920px;
   filter: brightness(40%);
+}
+.fscreen {
+  position: relative;
+}
+.ftexts {
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+  position: absolute;
+  color: white;
+  top: 285px;
+  left: 20%;
+  right: 20%;
+  max-width: 647px;
+  margin: auto;
+  text-align: center;
+}
+.ftext {
+  color: white;
+  margin-bottom: 34px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.flabel {
+  margin-bottom: 30px;
+  color: white;
+  font-size: 47px;
+}
+.fbutton {
+  width: 176px;
+  height: 42px;
+  left: 2px;
+  top: 2px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+.advscreen {
+  margin-top: 80px;
+  font-size: 29px;
+}
+.advnav {
+  display: flex;
+  align-content: center;
+  margin-bottom: 146px;
+}
+.advsvg {
+  margin-left: auto;
+}
+.advlabel {
+  color: #000000;
+}
+.advpics {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  max-height: 150px;
+  height: 150px;
+}
+
+.advpictext {
+  margin-top: 50px;
 }
