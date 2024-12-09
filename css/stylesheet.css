@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0;
 }
+html {
+  height: 100%;
+}
 .container {
   max-width: 1134px;
   margin: auto;
@@ -63,8 +66,9 @@ p {
   margin-right: 10px;
 }
 #bg {
-  height: 835px;
-  width: 1903px;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
   filter: brightness(40%);
 }
 .fscreen {
@@ -215,7 +219,6 @@ p {
 }
 .special {
   margin-right: auto;
-  height: 100px;
   align-content: center;
   margin-top: 119.5px;
 }
@@ -232,7 +235,60 @@ p {
   font-size: 29px;
 }
 .list {
-  margin: auto;
+  margin-right: auto;
   list-style-type: none;
   padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 25.5px;
+}
+.listcatalog {
+  display: flex;
+  margin-right: auto;
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+  margin-left: 596.6px;
+  align-items: center;
+}
+.catalog {
+  display: flex;
+  background-color: #f6f6f6;
+}
+.catalogtext {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 29px;
+}
+.listcatalogdp {
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 2%;
+  font-size: 15px;
+}
+.listvse {
+  background-color: #ffa019;
+  color: #fff;
+  border: none;
+}
+.xiomi {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  background-color: #fff;
+  
+  
+}
+.xiomitext{
+
+color: #000000;
+font-family: "Inter", sans-serif;
+font-size: 14px;
+}
+.xiomitextprice{
+  
+  color: #000000;
+  font-size: 21px;
+  font-family: "Inter", sans-serif;
+  margin-top: 28.5px;
 }
