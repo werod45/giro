@@ -85,6 +85,7 @@ p {
   max-width: 647px;
   margin: auto;
   text-align: center;
+  justify-content: center;
 }
 .ftext {
   color: white;
@@ -251,8 +252,12 @@ p {
   align-items: center;
 }
 .catalog {
-  display: flex;
   background-color: #f6f6f6;
+}
+.catalogcontainment{
+  display: flex;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 .catalogtext {
   color: #000000;
@@ -270,25 +275,54 @@ p {
   background-color: #ffa019;
   color: #fff;
   border: none;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.xiomi {
+.box{
+  width: 250px;
+  height: 390px;
+  background-color: #FFF;
+  margin-right: 29px;
+  margin: auto;
+  margin-bottom: 140px;
+}
+.catalogboxes{
   display: flex;
-  align-items: center;
-  color: #000000;
-  background-color: #fff;
-  
-  
 }
-.xiomitext{
-
-color: #000000;
-font-family: "Inter", sans-serif;
-font-size: 14px;
-}
-.xiomitextprice{
-  
-  color: #000000;
-  font-size: 21px;
+.type{
+  margin-top: 19px;
+  height: 28px;
+  margin-right: auto;
+  background: #ffa019;
+  align-content:center;
+  color: white;
+  width: fit-content;
+  border-end-end-radius: 12px;
+  border-top-right-radius: 12px;
+  padding-left: 12px;
+  padding-right: 18px;
+  margin-bottom: 20px;
   font-family: "Inter", sans-serif;
-  margin-top: 28.5px;
+}
+.boxpic{
+  width: 214px;
+  height: 214px;
+  margin:auto;
+  display: block;
+  margin-bottom: 7px;
+}
+.boxname{
+  font-family: "Inter", sans-serif;
+  margin-left: 20px;
+  color:black;
+  font-size: 14px;
+  margin-bottom: 29px;
+  width: 164px;
+}
+.price{
+  font-family: "Inter", sans-serif;
+  color:black;
+  font-size: 21px;
+  margin-left: 20px;
 }
