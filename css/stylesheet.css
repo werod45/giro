@@ -253,6 +253,7 @@ p {
 }
 .catalog {
   background-color: #f6f6f6;
+  margin-bottom: 29px;
 }
 .catalogcontainment{
   display: flex;
@@ -325,4 +326,98 @@ p {
   color:black;
   font-size: 21px;
   margin-left: 20px;
+}
+.conboxes{
+  display: flex;
+}
+.conbox{
+  width: 360px;
+  height: 185px;
+  background-color: #f6f6f6;
+  margin-right: 29px;
+  margin: auto;
+  margin-top: 92px;
+  margin-bottom: 64px;
+  display: flex;
+}
+.conpic{
+  height: 185px;
+  width: 163px;
+}
+.conboxlabel{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: black;
+  margin-top: 36px;
+}
+.conboxjob{
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  color: #000000;
+  margin-top: 18px;
+}
+.conboxbutton{
+  margin-top: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  color: white;
+  background: #ffa019;
+  border-radius: 10px;
+  height: 35px;
+  width: 85px;
+  border: none;
+}
+.concontent{
+  margin-left: 32px;
+}
+.brandbar{
+  height: 194px;
+  background-color: #f6f6f6;
+  align-content: center;
+  margin-bottom: 102px;
+}
+.brands{
+  list-style-type: none;
+  display: flex;
+}
+.brand{
+  color: #9B9B9B;
+  font-size: 47px;
+  margin-right: 44px;
+  margin: auto;
+}
+.usefulboxes{
+  margin-top: 62px;
+  display: flex;
+}
+.usefulbox{
+  width: 261px;
+  height: 261px;
+  margin-right: 29px;
+  margin-bottom: 52px;
+  margin: auto;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  background-size: contain;
+  display: flex;
+  align-content: center;
+}
+#firstbox{
+  background-image: url("img/use1.jpg");
+}
+#secondbox{
+  background-image: url("img/use2.jpg");
+}
+#thirdbox{
+  background-image: url("img/use3.jpg");
+}
+#fourbox{
+  background-image: url("img/use4.jpg");
+}
+.usefultext{
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+  font-size: 17px;
+  line-height: 28px;
+  margin:auto;
+  margin-left:22px;
 }
