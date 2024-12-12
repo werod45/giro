@@ -245,11 +245,12 @@ p {
 }
 .listcatalog {
   display: flex;
-  margin-right: auto;
+  margin-left: auto;
   list-style-type: none;
   font-family: "Inter", sans-serif;
-  margin-left: 596.6px;
   align-items: center;
+  padding: 0;
+  margin-right: 5%;
 }
 .catalog {
   background-color: #f6f6f6;
@@ -479,4 +480,104 @@ p {
   font-size: 14px;
   margin-bottom: 15px;
   color: #2F3741;
+}
+@media (max-width: 1366px) {
+  .container{
+    max-width: 1000px;
+  }
+  .brand{
+    font-size: 24px;
+  }
+  .brandbar{
+    height: 120px;
+  }
+  .box{
+    width: 230px;
+    height: 380px;
+  }
+  .conbox{
+    height: 165px;
+    width: 300px;
+  }
+  .conboxbutton{
+    margin-top: 12px;
+  }
+  .conboxlabel{
+    margin-right: 0px;
+  }
+  .conpic{
+    height: 100%;
+    width: 120px;
+  }
+  .usefulbox{
+    width: 241px;
+    height: 241px;
+  }
+}
+@media (max-width: 1080px){
+  .container{
+    max-width: 740px;
+  }
+  .advpics{
+    display: block;
+  }
+  .advpic{
+    margin-bottom: 50px;
+  }
+  .advptext{
+    display: block;
+  }
+  .advpictext{
+    margin-bottom: 140px;
+  }
+  .sub{
+    max-width: fit-content;
+  }
+  #name{
+    margin-left: 15px;
+  }
+  .catalogboxes{
+    display: block;
+  }
+  .box{
+    margin-bottom: 5px;
+  }
+  .catalog{
+    padding-bottom: 25px;
+  }
+  .workers{
+    display: block;
+  }
+  .conboxes{
+    display: block;
+    align-content:center;
+  }
+  .conbox{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 180px;
+  }
+  .conpic{
+    height: 100%;
+  }
+  .conboxbutton{
+    margin-top: 12px;
+  }
+  .usefulboxes{
+    display: block;
+  }
+  .usefulbox{
+    margin-bottom: 15px;
+  }
+  .menu{
+    display: none;
+  }
+  .brand{
+    font-size: 12px;
+  }
+  .brandbar{
+    height: 50px;
+  }
 }
