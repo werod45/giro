@@ -69,15 +69,19 @@ p {
   height: 100%;
   width: 100%;
   background-size: cover;
-  filter: brightness(40%);
+  
 }
 .fscreen {
-  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/background.jpg);;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-content: center;
 }
 .ftexts {
   font-family: "Inter", sans-serif;
   font-weight: lighter;
-  position: absolute;
   color: white;
   top: 285px;
   left: 20%;
@@ -118,9 +122,6 @@ p {
   align-content: center;
   margin-bottom: 146px;
 }
-.advsvg {
-  margin-left: auto;
-}
 .advlabel {
   color: #000000;
   font-family: "Inter", sans-serif;
@@ -134,12 +135,14 @@ p {
 }
 .advpictext {
   font-family: "Inter", sans-serif;
-  margin-top: 50px;
-  margin-right: 71px;
-  margin-left: 39px;
   font-size: 20px;
   color: #000000;
+  width: 250px;
   margin: auto;
+  text-align: center;
+}
+.advsvg{
+  margin-left: auto;
 }
 .advptext {
   display: flex;
@@ -148,15 +151,12 @@ p {
   font-family: "Inter", sans-serif;
 }
 .advpic {
-  margin-left: 88px;
-  margin-right: 52px;
+  width: 250px;
   margin: auto;
 }
-.assorti {
-  margin-left: 80px;
-}
-.deliv {
-  margin-left: 50px;
+.advimg{
+  margin: auto;
+  display: block;
 }
 .bartext {
   display: flex;
@@ -374,7 +374,7 @@ p {
   height: 194px;
   background-color: #f6f6f6;
   align-content: center;
-  margin-bottom: 102px;
+  margin-bottom: 44px;
 }
 .brands{
   list-style-type: none;
@@ -385,6 +385,9 @@ p {
   font-size: 47px;
   margin-right: 44px;
   margin: auto;
+}
+.useful{
+  margin-bottom: 52px;
 }
 .usefulboxes{
   margin-top: 62px;
@@ -402,16 +405,20 @@ p {
   align-content: center;
 }
 #firstbox{
-  background-image: url("img/use1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/use1.jpg);;
 }
 #secondbox{
-  background-image: url("img/use2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/use2.jpg);;
 }
 #thirdbox{
-  background-image: url("img/use3.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/use3.jpg);;
 }
 #fourbox{
-  background-image: url("img/use4.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/use4.jpg);;
 }
 .usefultext{
   font-family: "Inter", sans-serif;
@@ -419,5 +426,57 @@ p {
   font-size: 17px;
   line-height: 28px;
   margin:auto;
-  margin-left:22px;
+  margin-left:12px;
+}
+.podvalny{
+  height: 318px;
+  background: #f6f6f6;
+}
+.podval{
+  display: flex;
+}
+.podvaltext{
+  width: 340px;
+}
+.rndtext{
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 77px;
+}
+.lietext{
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 26px;
+}
+.copyright{
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 66px;
+}
+.links{
+  margin-left: auto;
+  display: flex;
+  margin-top: 77px;
+}
+.footerul{
+  padding: 0;
+}
+.footerli{
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+  color: #8191A5;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.randomlinks{
+  margin-left: 47px;
+}
+.linklabel{
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #2F3741;
 }
